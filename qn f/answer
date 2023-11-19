@@ -1,0 +1,10 @@
+1.while loop
+while loop test the conditions before the statements are executed. if the conditionally is intialy false then the loop statements wiil never execute
+ the while loop exmaple is shown in the file while.js
+
+2. do-while loop
+the do while loop checks the conditions after the lop body has already executed once.
+if the conditions turns out to be false the loop will havew executed once then exits
+example demonstrated in file do.js
+
+

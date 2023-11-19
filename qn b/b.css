@@ -1,0 +1,20 @@
+.double{
+    display: flex;
+    flex-direction: row;
+}
+.internal{
+    float: right;
+}
+.in-group{
+    margin-bottom: 1.5vh;
+}
+input[type=text]{
+    width: 190px;
+    float: inline-end;
+}
+.form{
+    width: 250px;
+}
+.lbl{
+    align-self: baseline;
+}

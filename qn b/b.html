@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="b.css">
+</head>
+<body>
+    <div class="form">
+        <h3>Please fill all the details</h3>
+        <form action="">
+            <div class="in-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="in-group">
+                <label for="course">Course</label>
+               <select name="couse" id="couse">
+                <option value="">BITCM</option>
+                <option value="">Comp</option>
+                <option value="">BBIT</option>
+                <option value="">BIT</option>
+               </select>
+            </div>
+            <div class="in-group">
+                <label for="age">Age</label>
+                <input type="text" id="age">
+            </div>
+            <div class="in-group">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <div class="in-group double">
+                <label for="nation" class="lbl">Nationality</label>
+                <div class="internal">
+                <input type="radio" name="Kenyan" id="Kenyan" value="Kenyan">
+                <label for="Kenyan">Kenyan</label><br>
+                <input type="radio" name="Ugandan" id="Ugandan" value="Ugandan">
+                <label for="Ugandan">Ugandan</label><br>
+                <input type="radio" name="Tanzanian" id="Tanzanian" value="Tanzanian">
+                <label for="Tanzanian">Tanzanian</label>
+                </div>
+                
+            </div>
+            <div class="in-group double">
+                <label for="mode" class="lbl">Mode</label>
+                <div class="internal">
+                <input type="checkbox" name="" id="Day">
+                <label for="Day">Day Time</label><br>
+                <input type="checkbox" name="" id="Week">
+                <label for="Week">Week End</label><br>
+                <input type="checkbox" name="" id="Evening">
+                <label for="Evening">Evening</label><br>
+                </div>
+            </div>
+            <div class="in-group">
+                <label for="upload">Upload</label>
+                <input type="file" name="upload" id="upload">
+            </div>
+            <div class="in-group">
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
